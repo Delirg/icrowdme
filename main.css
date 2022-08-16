@@ -25,7 +25,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-    /* font-family: 'Montserrat', sans-serif; */
+    
     font-family: 'Open Sans', sans-serif;
 }
 ol, ul {
@@ -58,6 +58,7 @@ table {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    margin: 0 auto;
     width: 1020px;
 
 }
@@ -342,14 +343,16 @@ table {
 .find {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 
 .find-properties {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
     background-color: #e2f8ff;
+    padding-top: 47px;
     width: 50%;
 }
 
@@ -357,7 +360,128 @@ table {
 .find-buyers {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     background-color: #f5f9eb;
+    padding-top: 47px;
     width: 50%
+}
+
+.find-about {
+    width: 260px;
+    margin-bottom: 50px;
+    padding-right: 55px;
+}
+
+.find__logo-properties {
+    padding-right: 60px;
+    margin-top: -90px;
+}
+
+.find__logo-buyers {
+    padding-right: 80px;
+    padding-left: 70px;
+    margin-top: -90px;
+}
+
+.find__title {
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;;
+    font-weight: 400;
+    color: #515151;
+    
+}
+
+.find__subtitle {
+    padding-top: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #515151;
+    line-height: 1.7;
+}
+
+.find__btn-properties {
+    margin-top: 34px;
+    background-color: #26a6d1;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+
+.find__btn-properties:hover {
+    background-color: #228baf;
+}
+
+
+
+.find__btn-buyers {
+    margin-top: 34px;
+    background-color: #add136;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+
+
+.find__btn-buyers:hover {
+    background-color:#8ba92a
+}
+
+
+
+
+/* ---------------projects--------------------- */
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projects__header {
+    width: 650px;
+    padding-top: 83px;
+    margin-bottom: 70px;
+}
+
+.projects__title {
+    font-size: 29px;
+    font-weight: 600;
+    color: #515151;
+    margin-bottom: 25px;
+}
+
+.projects__subtitle {
+    font-size: 17px;
+    font-weight: 400;
+    color: #8f8f8f;
+    line-height: 1.6;
+}
+
+.projects__btn {
+    padding: 20px 25px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid #b6b6b6;
+    font-size: 15px;
+    font-weight: 600;
+    color: #b6b6b6;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.projects__btn:hover {
+    background-color: #9c9c9c;
+    color: #fff;
 }
